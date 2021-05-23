@@ -1,6 +1,8 @@
 # jaden-case
 
-FIXME: my new library.
+This is a 7 kyu kata---according to codewars.
+
+You can practice the Clojure version of the kata [here](https://www.codewars.com/kata/5390bac347d09b7da40006f6/train/clojure).
 
 ## Usage
 
