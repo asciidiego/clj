@@ -1,7 +1,8 @@
-(ns diegovincent.jaden-case)
+(ns diegovincent.jaden-case
+  (:require [clojure.string :refer [split join]]))
 
 (defn jaden-case
   "Return strings like Jaden Smith. That is, capitalizes each word"
-  [x] (->> (clojure.string/split x #" ")
+  [x] (->> (split x #" ")
            (map #(clojure.string/capitalize %))
-           (clojure.string/join " ")))
+           (join " ")))
